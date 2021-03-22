@@ -14,11 +14,12 @@
 
 <body>
     <div class="container my-5">
+        <a href="{{route ('inicio')}}" class="btn btn-primary">Inicio</a>
         <a href="{{route ('foto')}}" class="btn btn-primary">Fotos</a>
         <a href="{{route ('blog')}}" class="btn btn-primary">Blog</a>
         <a href="{{route ('nosotros')}}" class="btn btn-primary">Nosotros</a>
-        {{-- <a href="{{route ('about')}}">About</a>
-        <a href="{{route ('contact')}}">Contact</a> --}}
+        <a href="{{route ('nota')}}" class="btn btn-primary">Notas</a>
+        
     </div>
     <div class="container">
         @yield('seccion')
